@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 import { View, Text } from 'react-native';
 import { badgeContainerStyles, badgeTextStyles } from './styles';
 
@@ -9,7 +9,7 @@ export type BadgeProps = {
   variant?: 'solid' | 'subtle' | 'outline' | 'ghost';
 };
 
-const Badge: React.FC<BadgeProps> = ({
+const Badge: React.FC<PropsWithChildren<BadgeProps>> = ({
   children,
   size = 'md',
   theme = 'default',
