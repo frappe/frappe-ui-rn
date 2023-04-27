@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/NagariaHussain/frappe-ui-rn",
+  "repository": "https://github.com/frappe/frappe-ui-rn",
   "author": "Hussain Nagaria <hussainbhaitech@gmail.com> (https://github.com/NagariaHussain)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NagariaHussain/frappe-ui-rn/issues"
+    "url": "https://github.com/frappe/frappe-ui-rn/issues"
   },
-  "homepage": "https://github.com/NagariaHussain/frappe-ui-rn#readme",
+  "homepage": "https://github.com/frappe/frappe-ui-rn#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
