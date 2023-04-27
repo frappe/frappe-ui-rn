@@ -10,12 +10,11 @@ npm install frappe-ui-rn
 
 ## Usage
 
-```js
-import { multiply } from 'frappe-ui-rn';
+```jsx
+import { Badge } from 'frappe-ui-rn';
 
 // ...
-
-const result = await multiply(3, 7);
+<Badge>Gamma</Badge>
 ```
 
 ## Contributing
@@ -25,7 +24,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 ## License
 
 MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
